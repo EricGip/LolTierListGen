@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/EricGip/LolTierListGen/static/js/main.a9694fd3.chunk.js",
-    "main.js.map": "/EricGip/LolTierListGen/static/js/main.a9694fd3.chunk.js.map",
-    "runtime-main.js": "/EricGip/LolTierListGen/static/js/runtime-main.879b2a7a.js",
-    "runtime-main.js.map": "/EricGip/LolTierListGen/static/js/runtime-main.879b2a7a.js.map",
-    "static/js/2.6ddf32bc.chunk.js": "/EricGip/LolTierListGen/static/js/2.6ddf32bc.chunk.js",
-    "static/js/2.6ddf32bc.chunk.js.map": "/EricGip/LolTierListGen/static/js/2.6ddf32bc.chunk.js.map",
-    "index.html": "/EricGip/LolTierListGen/index.html",
-    "precache-manifest.c331347ce24b0f1bb905276cfb9dd6c7.js": "/EricGip/LolTierListGen/precache-manifest.c331347ce24b0f1bb905276cfb9dd6c7.js",
-    "service-worker.js": "/EricGip/LolTierListGen/service-worker.js",
-    "static/js/2.6ddf32bc.chunk.js.LICENSE.txt": "/EricGip/LolTierListGen/static/js/2.6ddf32bc.chunk.js.LICENSE.txt"
+    "main.js": "/LolTierListGen/static/js/main.1173290e.chunk.js",
+    "main.js.map": "/LolTierListGen/static/js/main.1173290e.chunk.js.map",
+    "runtime-main.js": "/LolTierListGen/static/js/runtime-main.1479ef30.js",
+    "runtime-main.js.map": "/LolTierListGen/static/js/runtime-main.1479ef30.js.map",
+    "static/js/2.6ddf32bc.chunk.js": "/LolTierListGen/static/js/2.6ddf32bc.chunk.js",
+    "static/js/2.6ddf32bc.chunk.js.map": "/LolTierListGen/static/js/2.6ddf32bc.chunk.js.map",
+    "index.html": "/LolTierListGen/index.html",
+    "precache-manifest.aabc1125ac6b00e291bf552c27deadf2.js": "/LolTierListGen/precache-manifest.aabc1125ac6b00e291bf552c27deadf2.js",
+    "service-worker.js": "/LolTierListGen/service-worker.js",
+    "static/js/2.6ddf32bc.chunk.js.LICENSE.txt": "/LolTierListGen/static/js/2.6ddf32bc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.879b2a7a.js",
+    "static/js/runtime-main.1479ef30.js",
     "static/js/2.6ddf32bc.chunk.js",
-    "static/js/main.a9694fd3.chunk.js"
+    "static/js/main.1173290e.chunk.js"
   ]
 }
