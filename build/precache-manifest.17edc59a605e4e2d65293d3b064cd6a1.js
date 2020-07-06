@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a1b038918be49a16e87ec17a910b882",
+    "revision": "6c53d36db16e12c64fd1afad80c312df",
     "url": "/LolTierListGen/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LolTierListGen/static/js/2.41facbff.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b89e29e6157c4297ba90",
-    "url": "/LolTierListGen/static/js/main.2284f703.chunk.js"
+    "revision": "20af73f5896a01b21070",
+    "url": "/LolTierListGen/static/js/main.86dc7035.chunk.js"
   },
   {
     "revision": "4521e660ada0bebb267f",
