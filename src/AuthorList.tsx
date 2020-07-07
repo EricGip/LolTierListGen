@@ -20,6 +20,7 @@ const useStyles = makeStyles(theme => ({
   },
   Button: {
     "& > *": {
+      width: "100%",
       height: "20px",
       whiteSpace: 'nowrap'
     },

@@ -69,7 +69,6 @@ function App() {
 
   React.useEffect(() => {
     localStorage.setItem('my-tier-list', JSON.stringify(rows))
-    localStorage.setItem('', JSON.stringify(rows))
 
   });
 
