@@ -42,7 +42,7 @@ interface Props {
   isCombineEnabled?: boolean;
   onUp: () => void;
   onDown: () => void;
-  onClear: () => void;
+
   onLabelChange: (newText: string) => void;
 }
 
@@ -53,7 +53,6 @@ export const AuthorList: React.FC<Props> = ({
   onUp,
   onDown,
   onLabelChange,
-  onClear
 }) => {
   const classes = useStyles();
 

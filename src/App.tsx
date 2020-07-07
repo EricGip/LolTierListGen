@@ -1,6 +1,6 @@
 import React from "react";
 import { DragDropContext } from "react-beautiful-dnd";
-import { reorderRows, reorder, clearRow } from "./reorder";
+import { reorderRows, reorder } from "./reorder";
 
 import top from "./data/top.json";
 import jungle from "./data/jungle.json";
@@ -174,7 +174,7 @@ function App() {
             onUp={() => setRows(reorder(rows, i, i - 1))}
             //move the object down in the array order,
             onDown={() => setRows(reorder(rows, i, i + 1))}
-            onClear={() => setRows(clearRow(rows))}
+
             // when we have a lot of pictures, want to scroll per row
             internalScroll
             key={row.id}
