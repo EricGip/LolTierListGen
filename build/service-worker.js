@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/LolTierListGen/precache-manifest.2b973c9bb43987475da2b7a14913903c.js"
+  "/LolTierListGen/precache-manifest.ea2bf587569541cabe20a27c5842a53e.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -14,7 +14,7 @@ import Button from "@material-ui/core/Button";
 import { AppBar, Toolbar, TextField, IconButton } from "@material-ui/core";
 import GitHubIcon from "@material-ui/icons/GitHub";
 
-import Tooltip from '@material-ui/core/Tooltip';
+import Tooltip from "@material-ui/core/Tooltip";
 
 const aId = generate();
 
@@ -51,10 +51,8 @@ function App() {
   ]);
 
   return (
-    // making each row droppable
     <DragDropContext
       onDragEnd={({ destination, source }) => {
-        // // dropped outside the list
         if (!destination) {
           return;
         }
@@ -64,7 +62,6 @@ function App() {
     >
       <div
         style={{
-          // #89CFF0 #DCDCDC
           backgroundColor: "#89CFF0"
         }}
       >
@@ -97,41 +94,25 @@ function App() {
               }}
             />
 
-          <Tooltip title="Links to GitHub">
-            <IconButton
-              aria-label="hello"
-              edge="end"
-              href={GitHub}
-              target="_blank"
-            >
-              <GitHubIcon
-                style={{
-                  color: "#89CFF0",
-                  position: "absolute",
-                  right: "5px",
-                  fontSize: 50,
-                  overflow: "auto"
-                }}
-              />
-            </IconButton>
+            <Tooltip title="Links to GitHub">
+              <IconButton
+                aria-label="hello"
+                edge="end"
+                href={GitHub}
+                target="_blank"
+              >
+                <GitHubIcon
+                  style={{
+                    color: "#89CFF0",
+                    position: "absolute",
+                    right: "5px",
+                    fontSize: 50,
+                    overflow: "auto"
+                  }}
+                />
+              </IconButton>
             </Tooltip>
-            
           </Toolbar>
-
-
-          {/* <GitHubIcon
-            style={{
-              color: "#89CFF0",
-              position: "absolute",
-              right: "25px",
-              marginTop: "7px",
-              fontSize: 50,
-              overflow: "auto",
-            }}
-
-            href={GitHub} 
-            target="_blank"
-          /> */}
         </AppBar>
 
         <Button
@@ -157,25 +138,15 @@ function App() {
 
         {rows.map((row, i) => (
           <AuthorList
-            // on label change,
             onLabelChange={newText =>
-              // go through this state?
               setRows(
-                // create a new array with
                 rows.map(x =>
-                  // if the id/index is equal to current row,
-                  // then keep the row, and change the "label"
-                  // else: return x
                   x.id === row.id ? { ...row, label: newText } : x
                 )
               )
             }
-            // we have an array of objects, move the object ( row ) up, (down on the array since we add objects to the end)
             onUp={() => setRows(reorder(rows, i, i - 1))}
-            //move the object down in the array order,
             onDown={() => setRows(reorder(rows, i, i + 1))}
-
-            // when we have a lot of pictures, want to scroll per row
             internalScroll
             key={row.id}
             listId={row.id}

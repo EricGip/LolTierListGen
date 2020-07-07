@@ -42,7 +42,6 @@ interface Props {
   isCombineEnabled?: boolean;
   onUp: () => void;
   onDown: () => void;
-
   onLabelChange: (newText: string) => void;
 }
 
@@ -52,7 +51,7 @@ export const AuthorList: React.FC<Props> = ({
   row,
   onUp,
   onDown,
-  onLabelChange,
+  onLabelChange
 }) => {
   const classes = useStyles();
 
@@ -115,7 +114,6 @@ export const AuthorList: React.FC<Props> = ({
             {row.urls.map((url, index) => (
               <Draggable key={url} draggableId={url} index={index}>
                 {dragProvided => (
-                  // inside this div this is what renders
 
                   <div
                     {...dragProvided.dragHandleProps}
@@ -123,17 +121,13 @@ export const AuthorList: React.FC<Props> = ({
                     ref={dragProvided.innerRef}
                   >
                     <Avatar
-                      // className={classes.Paper}
-                      // style={{ backgroundColor: url }}
-                      // variant="outlined"
-                      // elevation={10}
                       style={{
                         height: "60px",
                         width: "60px"
                       }}
                       src={url}
                     >
-                      {/* <img style={{ width: 75 }} src={url} /> */}
+
                     </Avatar>
                   </div>
                 )}
