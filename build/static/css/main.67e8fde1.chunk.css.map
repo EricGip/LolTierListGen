@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,UACI,QAAS,CACT,WACJ,CAEA,KACI,wBACJ","file":"main.67e8fde1.chunk.css","sourcesContent":["html, body {\n    margin: 0;\n    height: 100%;\n}\n\nbody {\n    background-color: rgb(123, 203, 240);\n}"]}

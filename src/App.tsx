@@ -1,6 +1,7 @@
 import React from "react";
 import { DragDropContext } from "react-beautiful-dnd";
 import { reorderRows, reorder } from "./reorder";
+import './App.css';
 
 import top from "./data/top.json";
 import jungle from "./data/jungle.json";
@@ -11,7 +12,13 @@ import support from "./data/support.json";
 import { AuthorList } from "./AuthorList";
 import { generate } from "shortid";
 import Button from "@material-ui/core/Button";
-import { AppBar, Toolbar, TextField, IconButton } from "@material-ui/core";
+import {
+  AppBar,
+  Toolbar,
+  TextField,
+  IconButton,
+  Typography
+} from "@material-ui/core";
 import GitHubIcon from "@material-ui/icons/GitHub";
 
 import Tooltip from "@material-ui/core/Tooltip";
@@ -49,6 +56,22 @@ function App() {
       urls: support
     }
   ]);
+
+
+  React.useEffect(() => {
+    const data = localStorage.getItem('my-tier-list');
+    if (data) try {
+      setRows(JSON.parse(data));
+    } catch (error) {
+      console.error(error)
+    }
+  }, [])
+
+  React.useEffect(() => {
+    localStorage.setItem('my-tier-list', JSON.stringify(rows))
+    localStorage.setItem('', JSON.stringify(rows))
+
+  });
 
   return (
     <DragDropContext
@@ -94,6 +117,22 @@ function App() {
               }}
             />
 
+            <Typography
+              style={{
+                color: "#b9f2ff",
+                position: "absolute",
+                right: "7.5em",
+                fontSize: 15,
+                overflow: "auto"
+              }}
+            >
+              Champions roles are based off their play rate.
+              <br></br>
+              Search for a champion on Op.gg
+              <br></br>
+              Boards saved in local storage
+            </Typography>
+
             <Tooltip title="Links to GitHub">
               <IconButton
                 aria-label="hello"
@@ -117,8 +156,11 @@ function App() {
 
         <Button
           style={{
+            position: "absolute",
+            left: "0em",
+            width: "49%",
             color: "inherit",
-            margin: 15
+            margin: 10,
           }}
           variant="outlined"
           color="inherit"
@@ -134,6 +176,25 @@ function App() {
           }}
         >
           add row
+        </Button>
+
+        <Button
+          style={{
+            position: "relative",
+            left: "50.5em",
+            width: "48%",
+            color: "inherit",
+            margin: 10,
+          }}
+          variant="outlined"
+          color="inherit"
+          onClick={() => {
+            window.localStorage.clear();
+            window.location.reload();
+            return false;
+          }}
+        >
+          Clear Board
         </Button>
 
         {rows.map((row, i) => (

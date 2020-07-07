@@ -5,7 +5,7 @@ import Button from "@material-ui/core/Button";
 import TextField from "@material-ui/core/TextField";
 import { makeStyles } from "@material-ui/core/styles";
 
-import { Avatar } from "@material-ui/core";
+import { Avatar, Paper } from "@material-ui/core";
 import { generate } from "shortid";
 
 const useStyles = makeStyles(theme => ({
@@ -20,10 +20,10 @@ const useStyles = makeStyles(theme => ({
   },
   Button: {
     "& > *": {
-      width: "em",
-      height: theme.spacing(2),
-      left: "1"
-    }
+      height: "20px",
+      whiteSpace: 'nowrap'
+    },
+    width: "47%"
   },
   Textfield: {
     "& > *": {
@@ -31,6 +31,10 @@ const useStyles = makeStyles(theme => ({
       width: "25ch",
       height: "5ch"
     }
+  },
+  RowUp: {
+    position: "relative",
+    left: "8px",
   }
 }));
 
@@ -69,25 +73,23 @@ export const AuthorList: React.FC<Props> = ({
           />
         </div>
 
-        <div>
+        <div className={classes.RowUp}>
           <Button
             className={classes.Button}
             variant="outlined"
             color="primary"
             onClick={onUp}
           >
-            Move Row Up
+            Move Up
           </Button>
-        </div>
 
-        <div>
           <Button
             className={classes.Button}
             variant="outlined"
             color="primary"
             onClick={onDown}
           >
-            Move Row Down
+            Move Down
           </Button>
         </div>
       </div>
@@ -99,14 +101,17 @@ export const AuthorList: React.FC<Props> = ({
         isCombineEnabled={false}
       >
         {dropProvided => (
-          <div
+          <Paper
+            variant="outlined"
+            elevation={25}
+            square={false}
             {...dropProvided.droppableProps}
             style={{
               flex: 1,
               display: "flex",
               backgroundColor: "#DCDCDC",
               margin: 20,
-              minHeight: 60,
+              minHeight: 51,
               overflowX: "auto"
             }}
             ref={dropProvided.innerRef}
@@ -122,8 +127,8 @@ export const AuthorList: React.FC<Props> = ({
                   >
                     <Avatar
                       style={{
-                        height: "60px",
-                        width: "60px"
+                        height: "51px",
+                        width: "54px"
                       }}
                       src={url}
                     >
@@ -134,7 +139,7 @@ export const AuthorList: React.FC<Props> = ({
               </Draggable>
             ))}
             {dropProvided.placeholder}
-          </div>
+          </Paper>
         )}
       </Droppable>
     </div>
