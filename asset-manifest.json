@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/LolTierListGen/static/js/main.98595182.chunk.js",
-    "main.js.map": "/LolTierListGen/static/js/main.98595182.chunk.js.map",
+    "main.js": "/LolTierListGen/static/js/main.769acbb6.chunk.js",
+    "main.js.map": "/LolTierListGen/static/js/main.769acbb6.chunk.js.map",
     "runtime-main.js": "/LolTierListGen/static/js/runtime-main.1479ef30.js",
     "runtime-main.js.map": "/LolTierListGen/static/js/runtime-main.1479ef30.js.map",
     "static/js/2.41facbff.chunk.js": "/LolTierListGen/static/js/2.41facbff.chunk.js",
     "static/js/2.41facbff.chunk.js.map": "/LolTierListGen/static/js/2.41facbff.chunk.js.map",
     "index.html": "/LolTierListGen/index.html",
-    "precache-manifest.38df14fd211042c90eb1d272eb61c2c5.js": "/LolTierListGen/precache-manifest.38df14fd211042c90eb1d272eb61c2c5.js",
+    "precache-manifest.ea2bf587569541cabe20a27c5842a53e.js": "/LolTierListGen/precache-manifest.ea2bf587569541cabe20a27c5842a53e.js",
     "service-worker.js": "/LolTierListGen/service-worker.js",
     "static/js/2.41facbff.chunk.js.LICENSE.txt": "/LolTierListGen/static/js/2.41facbff.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1479ef30.js",
     "static/js/2.41facbff.chunk.js",
-    "static/js/main.98595182.chunk.js"
+    "static/js/main.769acbb6.chunk.js"
   ]
 }
