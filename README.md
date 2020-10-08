@@ -1,8 +1,18 @@
-To Do:
+# League of Legends Tier list Generator
 
-# Demo 
+# [Demo](https://ericgip.github.io/LolTierListGen/)
 
-https://ericgip.github.io/LolTierListGen/
+// [img]
+
+# Inspiration
+
+From the #100daysofcode challenge, a lot of industry professionals were recommending that you create a Kanban board / Trello clone to learn React. I wanted to level up my frontend game, so I decided to listen to the UI/UX experts and use it for a project that I would actually use.
+
+I initially made the drag and drop function in CSS with the help of stackoverflow, but it wasn't as clean as I wanted it to be; I searched for more resources and found the React DnD module was popularly used and covered many more edge cases since it has been in development more, no point of reinventing the wheel.
+
+# Future Development
+
+I would like to make this app responsive and work on mobile devices, but while testing on larger phones you can still only see around 2-5 icons per row and doesn't make sense from a UX standpoint. I'll be thinking of solutions.
 
 # Issues. 
 
