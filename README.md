@@ -12,7 +12,11 @@ I initially made the drag and drop function in CSS with the help of stackoverflo
 
 # Future Development
 
-I would like to make this app responsive and work on mobile devices, but while testing on larger phones you can still only see around 2-5 icons per row and doesn't make sense from a UX standpoint. I'll be thinking of solutions.
+   * I would like to make this app responsive and work on mobile devices, but while testing on larger phones you can still only see around 2-5 icons per row and doesn't make sense from a UX standpoint. I'll be thinking of solutions.
+
+   * Apart from tier list, I use this to keep track of my teammate's comfort champions during draft for our tournaments. I want to see if I can add a backend and sockets to allow for teams to collaborate on a single board together. 
+   
+   * Search function for champions for better user experience. 
 
 # Issues. 
 
