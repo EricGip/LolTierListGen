@@ -12,6 +12,8 @@ From the #100daysofcode challenge, a lot of industry professionals were recommen
 
 I initially made the drag and drop function in CSS with the help of stackoverflow, but it wasn't as clean as I wanted it to be; I searched for more resources and found the React DnD module was popularly used and covered many more edge cases since it has been in development more, no point of reinventing the wheel.
 
+I wanted to learn a lower level language, but I haven't mastered JavaScript yet so I met in the middle and tried a project with TypeScript.  
+
 I kept accidentally swiping left on my touchpad and refreshing the whole page, removing my whole board so I added local storage. 
 
 # Future Development
