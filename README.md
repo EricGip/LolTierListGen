@@ -16,7 +16,9 @@ I initially made the drag and drop function in CSS with the help of stackoverflo
 
    * Apart from tier list, I use this to keep track of my teammate's comfort champions during draft for our tournaments. I want to see if I can add a backend and sockets to allow for teams to collaborate on a single board together. 
    
-   * Search function for champions for better user experience. 
+   * Search function for champions to either highlight and/or generate a new icon to allow a champion to flex a position or present that they can fill multiple roles. 
+   
+Overall, this app works perfectly for my needs as an IGL
 
 # Issues. 
 
