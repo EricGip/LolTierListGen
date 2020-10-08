@@ -1,8 +1,10 @@
 # League of Legends Tier list Generator
 
-# [Demo](https://ericgip.github.io/LolTierListGen/)
+# [Demo](https://ericgip.github.io/LolTierListGen/) Link here
 
-// [img]
+<img src="https://github.com/EricGip/LolTierListGen/blob/master/src/data/imgs/TierListExample.png" alt="Example of usage for tier list" height="400">. 
+  
+<img src="https://github.com/EricGip/LolTierListGen/blob/master/src/data/imgs/DraftExample.png" alt="Example of usage for draft" height="400">. 
 
 # Inspiration
 
