@@ -2,6 +2,7 @@ import React from "react";
 import { DragDropContext } from "react-beautiful-dnd";
 import { reorderRows, reorder } from "./reorder";
 import './App.css';
+import ReactGA from 'react-ga';
 
 import top from "./data/top.json";
 import jungle from "./data/jungle.json";
@@ -28,6 +29,7 @@ const aId = generate();
 const GitHub = "https://github.com/EricGip";
 
 function App() {
+  
   const [rows, setRows] = React.useState([
     { id: aId, label: "", urls: [] },
     {
@@ -57,6 +59,11 @@ function App() {
     }
   ]);
 
+  function googleAnalytics() {
+    ReactGA.initialize('G-Y7D1H3LETQ');
+  };
+
+  googleAnalytics();
 
   React.useEffect(() => {
     const data = localStorage.getItem('my-tier-list');
