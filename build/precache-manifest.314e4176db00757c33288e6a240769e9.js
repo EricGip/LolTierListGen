@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "061312072da9982202956123cf4fbe31",
+    "revision": "56c17de44fc7fb0ed46c31c5b65067a2",
     "url": "/LolTierListGen/index.html"
   },
   {
