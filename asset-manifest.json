@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/LolTierListGen/static/css/main.67e8fde1.chunk.css",
-    "main.js": "/LolTierListGen/static/js/main.65341313.chunk.js",
-    "main.js.map": "/LolTierListGen/static/js/main.65341313.chunk.js.map",
+    "main.js": "/LolTierListGen/static/js/main.0352c0a6.chunk.js",
+    "main.js.map": "/LolTierListGen/static/js/main.0352c0a6.chunk.js.map",
     "runtime-main.js": "/LolTierListGen/static/js/runtime-main.1479ef30.js",
     "runtime-main.js.map": "/LolTierListGen/static/js/runtime-main.1479ef30.js.map",
-    "static/js/2.6f6edd2e.chunk.js": "/LolTierListGen/static/js/2.6f6edd2e.chunk.js",
-    "static/js/2.6f6edd2e.chunk.js.map": "/LolTierListGen/static/js/2.6f6edd2e.chunk.js.map",
+    "static/js/2.553c5f51.chunk.js": "/LolTierListGen/static/js/2.553c5f51.chunk.js",
+    "static/js/2.553c5f51.chunk.js.map": "/LolTierListGen/static/js/2.553c5f51.chunk.js.map",
     "index.html": "/LolTierListGen/index.html",
-    "precache-manifest.eb39e2129628b9debd262352cd6479b1.js": "/LolTierListGen/precache-manifest.eb39e2129628b9debd262352cd6479b1.js",
+    "precache-manifest.198874136f9a5c212373dbd62c2e8509.js": "/LolTierListGen/precache-manifest.198874136f9a5c212373dbd62c2e8509.js",
     "service-worker.js": "/LolTierListGen/service-worker.js",
     "static/css/main.67e8fde1.chunk.css.map": "/LolTierListGen/static/css/main.67e8fde1.chunk.css.map",
-    "static/js/2.6f6edd2e.chunk.js.LICENSE.txt": "/LolTierListGen/static/js/2.6f6edd2e.chunk.js.LICENSE.txt"
+    "static/js/2.553c5f51.chunk.js.LICENSE.txt": "/LolTierListGen/static/js/2.553c5f51.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1479ef30.js",
-    "static/js/2.6f6edd2e.chunk.js",
+    "static/js/2.553c5f51.chunk.js",
     "static/css/main.67e8fde1.chunk.css",
-    "static/js/main.65341313.chunk.js"
+    "static/js/main.0352c0a6.chunk.js"
   ]
 }
