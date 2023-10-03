@@ -8,8 +8,6 @@
 
 # Inspiration
 
-From the #100daysofcode challenge, a lot of industry professionals were recommending that you create a Kanban board / Trello clone to learn React. I wanted to level up my frontend game, so I decided to listen to the UI/UX experts and use it for a project that I would actually use.
-
 I initially made the drag and drop function in CSS with the help of stackoverflow, but it wasn't as clean as I wanted it to be; I searched for more resources and found the React DnD module was popularly used and covered many more edge cases since it has been in development more, no point of reinventing the wheel.
 
 I wanted to learn a lower level language, but I haven't mastered JavaScript yet so I met in the middle and tried a project with TypeScript.  
@@ -25,7 +23,3 @@ I kept accidentally swiping left on my touchpad and refreshing the whole page, r
    * Search function for champions to either highlight and/or generate a new icon to allow a champion to flex a position or present that they can fill multiple roles. 
    
 Overall, this app works perfectly for my needs as an IGL
-
-# Issues. 
-
-I spent about 11 hours looking for a deployment bug until external help finally figured out that **comments** were breaking React's `build` and compiled the JavaScript incorrectly. 
